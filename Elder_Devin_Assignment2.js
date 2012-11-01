@@ -4,9 +4,14 @@
 // "Date"
 
 // My Variables
-
+var key = myProcedure
+var gasTank = myBoolean
+var battVolt = myNumber
+var compInput = myString
+var sparkPlug = myArray
 
 // Procedure
+
 
 
 // Boolean Function
@@ -14,10 +19,6 @@
 
 
 // Number Function
-
-
-
-// String Function
 
 
 
