@@ -10,39 +10,35 @@
 //var sparkPlug = myArray
 
 // Procedure
-var keyTurns = function(turns) {
-	var key = - 1;
-		if (turns * key > 0) {
-			console.log("The ignition is not on and the car will not run.");
+var keyTurns = function(keyTurns) {
+	var key = 1;
+		if (keyTurns - key > 0) {
+			console.log("The ignition is on and the car is able to run.");
 		} else {
-			console.log("The ignition is turned on and the car is able to run.");
+			console.log("The ignition is not turned on and the car will not run.");
 		};
-keyTurns(turns)
 };
 
 // Boolean Function
-var fuel = function(h, g) {
-		if (h > 0, [g] > 0) {
+var fuel = function(hasGas, gettingGas) {
+		if (hasGas > 0, gettingGas > 0) {
 		var gasTank = "gas"
 		console.log("The engine is getting enough fuel to start.");
 	} else {
 		var gasTank = "no gas"
 		console.log("The engine is not getting fuel and therefor will not start.");
 	};
-// Input a 0 if the tank is empty or if gas is not getting to the engine.
-fuel(0, 0)
 };	
 
 // Number Function
-console.log("Charge the battery with a battery charger till it is fully charged.");
-var voltage = function(v) {
+var voltage = function(volt) {
+	console.log("Charge the battery with a battery charger till it is fully charged.");
 	var maxVoltage = 15
-while ([v] < maxVoltage) {
-	console.log("The battery is still charging, please wait.")
-	voltage++};
-voltage(8)
-};
+while (volt < 15) {
+	console.log("The battery is at " + volt + " volts and still charging, please wait.")
+	volt++};
 console.log("The battery is now fully charged.")
+};
 
 // String Function
 
@@ -51,6 +47,12 @@ console.log("The battery is now fully charged.")
 // Array Function
 
 
+
+// My Functions
+keyTurns(2)
+// Input a 0 if the tank is empty or if gas is not getting to the engine.
+fuel(1, 1)
+voltage(8)
 
 // My Outputs
 
