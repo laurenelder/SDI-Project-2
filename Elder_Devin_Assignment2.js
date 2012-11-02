@@ -41,18 +41,31 @@ console.log("The battery is now fully charged.")
 };
 
 // String Function
-
-
+var compInput = function(input, sensor) {
+	var wiring = " harness"
+	console.log("The" + sensor + " has been checked and it and the wiring" + wiring
+	+ input + ".");
+};
 
 // Array Function
-
-
+var majorComp = [engine, ignition, fuel] 
+var turnOn = function(order)
+var comp = majorComp.length + 1 * order
+for (var i = 0; i < majorComp.length; i++) {
+	console.log(comp + " major components have been turned on. The car should start.")
+};
 
 // My Functions
 keyTurns(2)
 // Input a 0 if the tank is empty or if gas is not getting to the engine.
 fuel(1, 1)
 voltage(8)
+compInput(" is functioning", " MAF");
+compInput(" is functioning", " IAC");
+compInput(" is functioning", " O2");
+compInput(" is functioning", " Camshaft Position Sensor");
+// Input a 0 if not starting the car and a 1 if starting the car
+turnOn(1)
 
 // My Outputs
 
