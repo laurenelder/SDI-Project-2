@@ -3,12 +3,6 @@
 // Project 2
 // 11/02/2012
 
-// My Variables
-//var gasTank = myBoolean
-//var battVolt = myNumber
-//var compInput = myString
-//var sparkPlug = myArray
-
 // Procedure
 var keyTurns = function(keyTurns) {
 	var key = 1;
